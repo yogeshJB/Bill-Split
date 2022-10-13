@@ -1,0 +1,30 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mysqlDockerstart": "docker run --name mysql -p 3306:3306 -e TZ=UTC -e MYSQL_ALLOW_EMPTY_PASSWORD=yes mysql"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "Yogesh Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
