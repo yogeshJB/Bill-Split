@@ -1,7 +1,7 @@
 Project - Bill Split (Bill Split Server App)
 
 # Split Bill Backebd
-Split bill server API
+Split Bill server
 
 # Technologies Used
 - Backend
